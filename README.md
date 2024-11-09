@@ -8,7 +8,8 @@ Symptom Bot: Placeholder feature for future integration of symptom-based health 
 Report Analyzer: Extract relevant medical metrics from uploaded PDF and DOCX reports.
 Detailed Result Information: Each prediction includes an explanation and suggested next steps.
 DEMO LINK - https://youtu.be/hBD7aOpYrqQ?feature=shared
-problems faced:
+
+Challenges faced:
 1. File Handling and Compatibility Issues
 Challenge: Handling multiple file types (PDF and DOCX) requires different libraries (PyPDF2 for PDFs and python-docx for DOCX files), which sometimes have limitations, such as text extraction errors or unsupported formats.
 Solution: Test the analyze_report function with various PDF and DOCX formats. If a file doesn’t extract correctly, consider adding exception handling and providing a user-friendly message.
